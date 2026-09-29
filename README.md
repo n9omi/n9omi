@@ -1,9 +1,9 @@
-[README (1).md](https://github.com/user-attachments/files/29353814/README.1.md)
+[README.md](https://github.com/user-attachments/files/32832788/README.md)
 # Naomi Tinga
 
-### Data Analyst & Researcher · Energy, Commodities, Data/AI Infrastructure, Governance, GIS
+### Seasoned Data Professional, Aspiring Quantitative Researcher · Energy, Critical Minerals & Commodity Markets
 
-I research and build quantitative models to study commodity market dynamics, physical climate risk, and geospatial intelligence. My work spans stochastic modeling of energy and minerals price regimes, satellite-derived risk signals, and the data infrastructure that connects raw environmental data and geopolitical signals to financial intelligence.
+I build quantitative models at the intersection of commodity market dynamics, physical climate risk, and geospatial intelligence. My work spans stochastic modeling of energy and minerals price regimes, satellite-derived risk signals, and the data infrastructure that connects raw environmental data to financial and policy decisions.
 
 Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
 
@@ -29,13 +29,31 @@ Python · R · SQL / PostgreSQL · QGIS / ArcGIS · Google Earth Engine · Table
 
 ## 📊 Projects
 
-- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** — ML-driven signal visualization for energy and metals markets. Applies regime classification and exploratory analytics to commodity price dynamics across oil, gas, and critical minerals.
+### Market & Climate Risk
 
-- **flood-physical-risk** *(in progress)* — Probabilistic flood inundation model combining CMIP6 climate projections with geospatial asset exposure data. Translates physical climate hazard into credit-relevant risk scores at the property and portfolio level.
+- **[regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation)** · *Python* — Market-risk and model-validation workflows on WTI, Brent and Henry Hub. Detects calm and turbulent regimes with a Markov-switching model, ranks EWMA, GARCH-t, HAR-RV and regime-based volatility forecasts, and backtests daily VaR/ES with Kupiec, Christoffersen and Basel traffic-light tests. A second study re-tests published commodity momentum and value strategies with purged cross-validation, the probability of backtest overfitting and the deflated Sharpe ratio. Every estimator is written from scratch. &nbsp; [Dashboard →](https://n9omi.github.io/regime-risk-and-model-validation/) · [Risk report (PDF) →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/regime_risk_summary.pdf) · [Factor report (PDF) →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/factor_validation_summary.pdf)
 
-- **climate-credit-risk** *(in progress)* — Framework for embedding physical and transition climate risk into credit loss modeling. Connects NGFS scenario pathways to PD/LGD adjustment under climate stress.
+- **[climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk)** · *Python* — How Gulf hurricanes and US winter storms move oil and gas prices, and whether daily risk models see it. Storms are selected from NOAA tracks and damage records rather than price moves, then tested with an event study against same-season placebo dates, regime shifts around each storm, VaR breach rates inside storm windows, a climate overlay learned from past storms, and historical-scenario stress tests on an energy book. Built on the regime-risk library as an installed package. &nbsp; [Dashboard →](https://n9omi.github.io/climate-shock-energy-risk/) · [Report (PDF) →](https://github.com/n9omi/climate-shock-energy-risk/blob/main/reports/climate_shock_energy_risk_report.pdf)
 
-- **critical-minerals-intelligence** *(in progress)* — Supply chain risk dashboard for copper, cobalt, lithium, and nickel. Integrates HHI concentration metrics, geopolitical exposure scores, and GMM regime classification to surface supply tightness signals relevant to commodity markets and energy transition portfolios.
+- **[risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit)** · *R* — Two bank-style risk case studies built without black-box risk packages. **Market risk:** VaR and ES six ways on a $10mm multi-asset book, position-level risk attribution, stressed VaR, backtests since 2008, crisis replays, and Basel 2.5 / FRTB capital. **Counterparty credit risk:** Monte Carlo exposure for swaps and forwards with netting and collateral, CVA including wrong-way risk, and SA-CCR, IRB and BA-CVA capital. &nbsp; [Market risk report (PDF) →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/market_risk_summary.pdf) · [CCR report (PDF) →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/ccr_summary.pdf)
+
+### Commodity ML & Geospatial
+
+- **[commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab)** · *Python / PyTorch* — Three commodity problems, each solved with a neural network and with the classical method it has to beat, on identical data and splits: LSTM, GRU and a Temporal Fusion Transformer against GARCH and HAR for energy returns and volatility; a U-Net against a random forest for mapping mines, stockpiles and cropland in Sentinel-2 imagery; and a double DQN against least-squares Monte Carlo for gas-storage trading. Multiple seeds, ablations, tracked experiments and a model card for every network. &nbsp; [Dashboard →](https://n9omi.github.io/commodity-deep-learning-lab/) · [Report (PDF) →](https://github.com/n9omi/commodity-deep-learning-lab/blob/main/reports/deep_learning_lab_report.pdf) · [Model cards →](https://github.com/n9omi/commodity-deep-learning-lab/tree/main/model_cards)
+
+- **[commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas)** · *Python* — Interactive map that turns free Earth-observation data into supply-side signals: Sentinel-1/2 change detection at a Permian drilling area and the Bingham Canyon and Thacker Pass mines, USGS 3DEP lidar stockpile volumes at power-plant coal yards, and kriged MODIS crop-condition surfaces with LISA hotspots across the Corn Belt. Each layer is scored against an independent reference. &nbsp; [Atlas →](https://n9omi.github.io/commodity-geospatial-atlas/) · [Report (PDF) →](https://github.com/n9omi/commodity-geospatial-atlas/blob/main/reports/geospatial_atlas_report.pdf)
+
+- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** · *HTML / JavaScript* — Browser-based teaching dashboard for machine learning in commodity markets, built for ECO 760 at Hunter College. Interactive modules for Lasso / Ridge / ElasticNet, XGBoost, hidden Markov regime detection and a backtest engine, each with plain-English explanations. Runs on simulated price series. &nbsp; [Live demo →](https://n9omi.github.io/commodity-ml-dashboard/)
+
+### Research Tools
+
+- **[quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant)** · *HTML / JavaScript* — Single-page app that uses Claude to break down technical papers in quant finance, economics and statistics: key equations with every symbol explained, concepts at three levels of depth, the method pipeline, and a phased replication plan with a starter Python script. Runs in the browser with your own API key. &nbsp; [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
+
+- **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared toolbox for commodity research: EIA and FRED loaders, data-contract validation, purged walk-forward splits and a consistent figure style. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)**, an ingest → features → model → validate → report scaffold for new projects.
+
+### Digital Scholarship
+
+- **[sacred-memories-tangier](https://github.com/n9omi/sacred-memories-tangier)** · *HTML / CSS* — Website for the Sacred Memories in Tangier ethnographic research project, with researcher profiles, an archive and a Critical Border Studies section. Sponsored by CUNY John Jay College. &nbsp; [Visit →](https://sacredmemoriestanger.com)
 
 ---
 
