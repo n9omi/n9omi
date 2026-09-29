@@ -1,9 +1,9 @@
 [README (1).md](https://github.com/user-attachments/files/29353814/README.1.md)
 # Naomi Tinga
 
-### Quantitative Researcher · Energy, Critical Minerals & Commodity Markets, Data/AI Infrastructure
+### Data Analyst & Researcher · Energy, Commodities, Data/AI Infrastructure, Governance, GIS
 
-I build quantitative models at the intersection of commodity market dynamics, physical climate risk, and geospatial intelligence. My work spans stochastic modeling of energy and minerals price regimes, satellite-derived risk signals, and the data infrastructure that connects raw environmental data and geopolitical signals to financial intelligence.
+I research and build quantitative models to study commodity market dynamics, physical climate risk, and geospatial intelligence. My work spans stochastic modeling of energy and minerals price regimes, satellite-derived risk signals, and the data infrastructure that connects raw environmental data and geopolitical signals to financial intelligence.
 
 Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
 
