@@ -3,7 +3,7 @@
 
 ### Professional Data Analyst and Graduate Student
 
-My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and exploratory or conceptual frameworks to study **commodities, environmental risk, and geopolitical dynamics**. I’m interested in how environmental, spatial, economic, and political signals interact—and in developing the mathematical rigor and data infrastructure needed to translate those relationships into financial and policy insight.
+My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, conceptual and exploratory frameworks to study **commodities, environmental risk, and geopolitical dynamics**. I’m interested in how environmental, spatial, economic, and political signals interact—and in developing the mathematical rigor and data infrastructure needed to translate those relationships into financial and policy insight.
 
 Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
 
