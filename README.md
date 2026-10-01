@@ -1,9 +1,9 @@
 [README.md](https://github.com/user-attachments/files/32832788/README.md)
 # Naomi Tinga
 
-### Seasoned Data Professional, Aspiring Quantitative Researcher · Energy, Critical Minerals & Commodity Markets
+### Professional Data Analyst and Graduate Student
 
-My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and exploratory or conceptual analytical frameworks to study commodities, environmental risk, and geopolitical dynamics. I am particularly interested in building data systems that connect environmental and spatial signals with economic and financial data, allowing complex market and geopolitical processes to be analyzed for both financial and policy applications.
+My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and exploratory or conceptual analytical frameworks to study commodities, environmental risk, and geopolitical dynamics. I’m interested in how environmental, spatial, economic, and political signals interact—and in developing the mathematical rigor and data infrastrcture needed to translate those relationships into financial and policy insight.
 
 Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
 
