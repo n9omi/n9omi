@@ -3,24 +3,22 @@
 
 ### Professional Data Analyst and Graduate Student
 
-My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, conceptual and exploratory frameworks to study **commodities, environmental risk, and geopolitical dynamics**. I’m interested in how environmental, spatial, economic, and political signals interact—and in developing the mathematical rigor and data infrastructure needed to translate those relationships into financial and policy insights.
+My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and conceptual and exploratory frameworks to study **commodities, environmental risk, and geopolitical dynamics**. I’m interested in how environmental, spatial, economic, and political signals interact—and in developing the mathematical rigor and data infrastructure needed to translate those relationships into financial and policy insights.
 
-Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
-
-- 🪨 &nbsp; Critical minerals & metals · supply chain risk · geopolitical exposure modeling
-- ⚡ &nbsp; Energy & commodity markets · price dynamics · regime classification
-- 🛰️ &nbsp; Geospatial & remote sensing · satellite-derived risk signals · spatial analytics
-- 📐 &nbsp; Stochastic processes · Markov chain models · probabilistic risk frameworks
-- 🧱 &nbsp; AI & data infrastructure · governance · pipeline architecture
-- 🎓 &nbsp; M.A. Economics · M.A. Applied Mathematics & Statistics — CUNY Hunter College *(in progress)*
-- 📍 &nbsp; New York, NY
-
----
+**Currently focused on:**
+- **Agricultural insights & supply forecasting:** using GIS, Google Earth Engine, and satellite data to track crop conditions and forecast supply chain trends
+- **Critical minerals supply risk:** where supply chains are concentrated and how exposed prices are to disruption
+- **Energy market regimes:** detecting when markets shift between calm, stressed, and crisis states
+- **Physical climate risk:** how floods and storms translate into financial losses for assets and loans
+- **Geopolitical commodity exposure:** how trade policy, sanctions, and conflict reshape commodity flows and prices
 
 ## 🔧 Methods & Tools
 
 **Quantitative Methods:**
 Stochastic processes · Markov chain & hidden Markov models · GMM regime classification · Gaussian-process & stochastic-volatility models · Lévy-process frameworks · time-series econometrics · probabilistic risk modeling · spatial & geospatial analysis · remote sensing analytics · GHG / carbon accounting
+
+**Geospatial:**
+Spatial statistics · satellite-based agricultural monitoring & supply forecasting · flood-vulnerability & site-suitability modeling · remote sensing analytics
 
 **Languages & Tools:**
 Python · R · SQL / PostgreSQL · QGIS / ArcGIS · Google Earth Engine · Tableau · Power BI · Airflow · Snowflake · Databricks · AWS
