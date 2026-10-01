@@ -3,7 +3,7 @@
 
 ### Seasoned Data Professional, Aspiring Quantitative Researcher · Energy, Critical Minerals & Commodity Markets
 
-I build quantitative models at the intersection of commodity market dynamics, physical climate risk, and geospatial intelligence. My work spans stochastic modeling of energy and minerals price regimes, satellite-derived risk signals, geopolitical implications, and the data infrastructure that connects raw environmental data to financial and policy decisions.
+My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and exploratory or conceptual analytical frameworks to study commodities, environmental risk, and geopolitical dynamics. I am particularly interested in building data systems that connect environmental and spatial signals with economic and financial data, allowing complex market and geopolitical processes to be analyzed for both financial and policy applications.
 
 Currently focused on: **critical minerals supply risk · energy market regime classification · physical climate risk modeling · geopolitical commodity exposure**
 
