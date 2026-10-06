@@ -49,17 +49,17 @@ Python · R · SQL / PostgreSQL · QGIS / ArcGIS · Google Earth Engine · Table
 
 - **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared toolbox for commodity research: EIA and FRED loaders, data-contract validation, purged walk-forward splits and a consistent figure style. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)**, an ingest → features → model → validate → report scaffold for new projects.
 
-### Digital Scholarship
+--- 
 
-- **[sacred-memories-tangier](https://github.com/n9omi/sacred-memories-tangier)** · *HTML / CSS* — Website for the Sacred Memories in Tangier ethnographic research project, with researcher profiles, an archive and a Critical Border Studies section. Sponsored by CUNY John Jay College. &nbsp; [Visit →](https://sacredmemoriestanger.com)
-
----
-
-## 📝 Published Work
+## 📝 Other Work
 
 ### Academic
 
-- **"Crisis as Infrastructure"** — Co-authored chapter in *[Routledge Handbook]*, with Esparza & Tinga. Analyzes necropolitics and European border governance through a structural lens. *(Routledge)*
+- **"Crisis as Infrastructure"** — Co-authored chapter in *[Routledge Handbook]*, with Esparza & Tinga. Analyzes necropolitics and European border governance through a structural lenses. *(Forthcoming)*
+
+### Digital Scholarship
+
+- **[sacred-memories-tangier](https://github.com/n9omi/sacred-memories-tangier)** · *HTML / CSS* — Website for the Sacred Memories in Tangier ethnographic research project, with researcher profiles, an archive and a Critical Border Studies section. Sponsored by CUNY John Jay College. &nbsp; [Visit →](https://sacredmemoriestanger.com)
 
 ### Data Journalism
 
