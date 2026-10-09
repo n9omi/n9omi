@@ -3,7 +3,9 @@
 
 ### Professional Data Analyst and Graduate Student
 
-My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, conceptual and exploratory frameworks to study **commodities, global markets, environmental risk, and geopolitical dynamics**. I’m interested in how environmental, spatial, economic, political, and social systems interact, how these relationships can be measured and modeled, and how mathematical rigor, data infrastructure, and computational tools can be developed to quantify uncertainty, forecast outcomes, and translate findings into financial and policy insights.
+My work combines probabilistic and statistical modeling, geospatial and remote-sensing methods, and conceptual and exploratory frameworks to study **commodities, global markets, environmental risk, and geopolitical dynamics**. I am particularly interested in statistical inference and stochastic modeling for complex physical, economic, social, and political systems, and in integrating Earth-observation, geospatial, socioeconomic, and market data to estimate latent supply states, identify regime changes, quantify uncertainty, and model the transmission of climate, geopolitical, and macroeconomic shocks across energy, agriculture, and critical-mineral markets.
+
+More broadly, I study how spatial, environmental, economic, behavioral, and political processes interact across time and networks; how those relationships can be represented through **probability theory, stochastic processes, complex dynamical systems, spatial and network models, time-series methods, optimization, and statistical learning**; and how data infrastructure and computational tools can be developed to forecast outcomes, evaluate risk, and translate empirical findings into realized insights and implications.
 
 **Currently focused on:**
 - **Agricultural insights & supply forecasting:** using GIS, Google Earth Engine, and satellite data to track crop conditions and forecast supply chain trends
