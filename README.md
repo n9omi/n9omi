@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/32832788/README.md)
+[README-2(2).md](https://github.com/user-attachments/files/33359802/README-2.2.md)
 # Naomi Tinga
 
 ### Professional Data Analyst and Graduate Student
@@ -7,63 +7,69 @@ My work combines probabilistic and statistical modeling, geospatial and remote-s
 
 More broadly, I study how environmental, socioeconomic, and geopolitical systems interact across time and networks; how those relationships can be measured through **probability theory, stochastic processes, complex dynamical systems, spatial and network models, time-series methods, optimization, and ML/statistical learning**; and how data infrastructure and computational tools can be developed to forecast outcomes, evaluate risk, and translate empirical findings into realized insights and implications.
 
-Professionally, I've worked in data for 7+ years applying data engineering and data science methods in compliance-heavy industries — energy, healthcare, real estate and infrastructure, public sector, and economic and policy research — spanning data sourcing, pipeline development, data governance, forecasting, demography, geospatial and statistical modeling, owning data products end to end, turning structured and unstructured data into statistical and qualitative insights delivered as compliance analytics, data products, tools, and reports for decision makers and stakeholders. 
+Professionally, I've worked in data for 7+ years applying data engineering and data science methods in compliance-heavy industries — energy, healthcare, real estate and infrastructure, public sector, and economic and policy research — spanning data sourcing, pipeline development, data governance, forecasting, demography, geospatial and statistical modeling, owning data products end to end, turning structured and unstructured data into statistical and qualitative insights delivered as compliance analytics, data products, tools, and reports for decision makers and stakeholders.
 
 **Currently focused on:**
-- **Agricultural insights & supply forecasting:** using GIS, Google Earth Engine, and satellite data to track crop conditions and forecast supply chain trends
-- **Critical minerals supply risk:** where supply chains are concentrated and how exposed prices are to disruption
-- **Energy market regimes:** detecting when markets shift between calm, stressed, and crisis states
-- **Physical climate risk:** how floods and storms translate into financial losses for assets and loans
-- **Geopolitical commodity exposure:** how trade policy, sanctions, and conflict reshape commodity flows and prices
+
+- **Commodity market risk, regimes & model validation:** detecting changes in energy-market states, forecasting volatility and tail risk, and testing whether risk and factor models remain reliable out of sample
+- **Climate shocks & commodity transmission:** measuring how hurricanes, winter storms and other physical shocks propagate into oil and gas prices, volatility, VaR breaches and portfolio stress
+- **Geospatial supply intelligence:** turning satellite, radar, lidar and crop-condition data into observable supply-side signals for energy, agriculture and critical minerals
+- **Commodity ML & deep learning:** benchmarking neural networks and reinforcement learning against strong statistical and econometric baselines rather than treating ML as a black box
+- **Market & counterparty risk:** modeling portfolio VaR/ES, stress loss, derivatives exposure, collateral, CVA and wrong-way risk under bank-style risk frameworks
+- **Reproducible quantitative research infrastructure:** building reusable data loaders, validation utilities, purged backtests, research templates, reports and interactive dashboards for commodity research
+
+---
 
 ## 🔧 Methods & Tools
 
-**Quantitative Methods:**
-Stochastic processes · Markov chain & hidden Markov models · GMM regime classification · Gaussian-process & stochastic-volatility models · Lévy-process frameworks · time-series econometrics · probabilistic risk modeling · spatial & geospatial analysis · remote sensing analytics · GHG / carbon accounting
+**Time Series, Risk & Econometrics:**  
+Markov-switching / hidden-state models · EWMA · GARCH-t · HAR-RV · volatility forecast comparison · VaR / Expected Shortfall · historical & filtered historical simulation · stress testing · event studies · placebo testing · Monte Carlo simulation · CVA / counterparty exposure · time-series and cross-sectional momentum · value factors
 
-**Geospatial:**
-Spatial statistics · satellite-based agricultural monitoring & supply forecasting · flood-vulnerability & site-suitability modeling · remote sensing analytics
+**Model Validation & Statistical Learning:**  
+Kupiec and Christoffersen coverage tests · Basel traffic-light testing · ES backtesting · QLIKE and Diebold–Mariano tests · purged walk-forward and combinatorial purged cross-validation · probability of backtest overfitting · probabilistic / deflated Sharpe ratios · Newey–West inference · simulation-based parameter recovery · no-look-ahead testing · ablation studies
 
-**Languages & Tools:**
-Python · R · SQL / PostgreSQL · QGIS / ArcGIS · Google Earth Engine · Tableau · Power BI · Airflow · Snowflake · Databricks · AWS
+**Machine Learning & Deep Learning:**  
+Lasso · Ridge · Elastic Net · XGBoost · random forests · hidden Markov models · LSTM · GRU · Temporal Fusion Transformer · U-Net · Double DQN · classical-vs-ML benchmark design · model cards and experiment tracking
+
+**Geospatial & Earth Observation:**  
+Sentinel-1/2 change detection · MODIS crop-condition monitoring · USGS 3DEP lidar stockpile estimation · kriging / spatial interpolation · LISA hotspot analysis · spatial validation · commodity supply mapping across drilling, mining, stockpiles and agriculture
+
+**Research Engineering & Tools:**  
+Python · R · PyTorch · NumPy / SciPy-style numerical workflows · HTML / JavaScript · SQL / PostgreSQL · QGIS / ArcGIS · Google Earth Engine · Git / GitHub Pages · EIA / FRED / World Bank commodity data · reusable Python packages · automated reports and dashboards
 
 ---
 
 ## 📊 Projects
 
-### Market & Climate Risk
+### Commodity Market Risk & Model Validation
 
-- **[regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation)** · *Python* — Market-risk and model-validation workflows on WTI, Brent and Henry Hub. Detects calm and turbulent regimes with a Markov-switching model, ranks EWMA, GARCH-t, HAR-RV and regime-based volatility forecasts, and backtests daily VaR/ES with Kupiec, Christoffersen and Basel traffic-light tests. A second study re-tests published commodity momentum and value strategies with purged cross-validation, the probability of backtest overfitting and the deflated Sharpe ratio. Every estimator is written from scratch. &nbsp; [Dashboard →](https://n9omi.github.io/regime-risk-and-model-validation/) · [Risk report (PDF) →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/regime_risk_summary.pdf) · [Factor report (PDF) →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/factor_validation_summary.pdf)
+- **[regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation)** · *Python* — End-to-end energy market-risk and model-validation research on WTI, Brent and Henry Hub. Implements Markov-switching regime detection, EWMA / GARCH-t / HAR-RV volatility forecasts, daily VaR/ES backtesting, and formal coverage tests. A second workflow re-tests published commodity momentum and value strategies using purged cross-validation, probability of backtest overfitting and the deflated Sharpe ratio. Core estimators and validation statistics are implemented from scratch. &nbsp; [Dashboard →](https://n9omi.github.io/regime-risk-and-model-validation/) · [Risk report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/regime_risk_summary.pdf) · [Factor report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/factor_validation_summary.pdf)
 
-- **[climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk)** · *Python* — How Gulf hurricanes and US winter storms move oil and gas prices, and whether daily risk models see it. Storms are selected from NOAA tracks and damage records rather than price moves, then tested with an event study against same-season placebo dates, regime shifts around each storm, VaR breach rates inside storm windows, a climate overlay learned from past storms, and historical-scenario stress tests on an energy book. Built on the regime-risk library as an installed package. &nbsp; [Dashboard →](https://n9omi.github.io/climate-shock-energy-risk/) · [Report (PDF) →](https://github.com/n9omi/climate-shock-energy-risk/blob/main/reports/climate_shock_energy_risk_report.pdf)
+- **[climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk)** · *Python* — Studies how Gulf hurricanes and US winter storms transmit into oil and gas prices and whether standard daily risk models capture the resulting stress. Combines NOAA storm selection, event studies, same-season placebos, regime shifts, VaR breach analysis, a learned climate overlay and historical-scenario stress testing on an energy portfolio. Built on the reusable regime-risk package. &nbsp; [Dashboard →](https://n9omi.github.io/climate-shock-energy-risk/) · [Report →](https://github.com/n9omi/climate-shock-energy-risk/blob/main/reports/climate_shock_energy_risk_report.pdf)
 
-- **[risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit)** · *R* — Two bank-style risk case studies built without black-box risk packages. **Market risk:** VaR and ES six ways on a $10mm multi-asset book, position-level risk attribution, stressed VaR, backtests since 2008, crisis replays, and Basel 2.5 / FRTB capital. **Counterparty credit risk:** Monte Carlo exposure for swaps and forwards with netting and collateral, CVA including wrong-way risk, and SA-CCR, IRB and BA-CVA capital. &nbsp; [Market risk report (PDF) →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/market_risk_summary.pdf) · [CCR report (PDF) →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/ccr_summary.pdf)
+- **[risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit)** · *R* — Bank-style market and counterparty-credit risk case studies implemented without black-box risk packages. Covers multi-method VaR/ES, position-level risk attribution, stressed VaR, crisis replays and Basel/FRTB capital; plus Monte Carlo swap/forward exposure, netting, collateral, CVA, wrong-way risk and SA-CCR / IRB / BA-CVA capital. &nbsp; [Market-risk report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/market_risk_summary.pdf) · [CCR report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/ccr_summary.pdf)
 
-### Commodity ML & Geospatial
+### Commodity Geospatial, ML & Decision Models
 
-- **[commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab)** · *Python / PyTorch* — Three commodity problems, each solved with a neural network and with the classical method it has to beat, on identical data and splits: LSTM, GRU and a Temporal Fusion Transformer against GARCH and HAR for energy returns and volatility; a U-Net against a random forest for mapping mines, stockpiles and cropland in Sentinel-2 imagery; and a double DQN against least-squares Monte Carlo for gas-storage trading. Multiple seeds, ablations, tracked experiments and a model card for every network. &nbsp; [Dashboard →](https://n9omi.github.io/commodity-deep-learning-lab/) · [Report (PDF) →](https://github.com/n9omi/commodity-deep-learning-lab/blob/main/reports/deep_learning_lab_report.pdf) · [Model cards →](https://github.com/n9omi/commodity-deep-learning-lab/tree/main/model_cards)
+- **[commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas)** · *Python* — Converts free Earth-observation data into observable commodity supply signals. Includes Sentinel-1/2 change detection for drilling and mining sites, USGS 3DEP lidar stockpile-volume estimation at coal yards, and kriged MODIS crop-condition surfaces with LISA hotspots across the Corn Belt. Each layer is evaluated against an independent reference. &nbsp; [Atlas →](https://n9omi.github.io/commodity-geospatial-atlas/) · [Report →](https://github.com/n9omi/commodity-geospatial-atlas/blob/main/reports/geospatial_atlas_report.pdf)
 
-- **[commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas)** · *Python* — Interactive map that turns free Earth-observation data into supply-side signals: Sentinel-1/2 change detection at a Permian drilling area and the Bingham Canyon and Thacker Pass mines, USGS 3DEP lidar stockpile volumes at power-plant coal yards, and kriged MODIS crop-condition surfaces with LISA hotspots across the Corn Belt. Each layer is scored against an independent reference. &nbsp; [Atlas →](https://n9omi.github.io/commodity-geospatial-atlas/) · [Report (PDF) →](https://github.com/n9omi/commodity-geospatial-atlas/blob/main/reports/geospatial_atlas_report.pdf)
+- **[commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab)** · *Python / PyTorch* — Tests where deep learning actually adds value in commodity research by pairing each network with a classical benchmark on identical data and splits: LSTM / GRU / Temporal Fusion Transformer vs GARCH / HAR for energy volatility, U-Net vs random forest for Sentinel-2 land-use mapping, and Double DQN vs least-squares Monte Carlo for gas-storage trading. Uses multiple seeds, ablations, tracked experiments and model cards. &nbsp; [Dashboard →](https://n9omi.github.io/commodity-deep-learning-lab/) · [Report →](https://github.com/n9omi/commodity-deep-learning-lab/blob/main/reports/deep_learning_lab_report.pdf) · [Model cards →](https://github.com/n9omi/commodity-deep-learning-lab/tree/main/model_cards)
 
-- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** · *HTML / JavaScript* — Browser-based teaching dashboard for machine learning in commodity markets, built for ECO 760 at Hunter College. Interactive modules for Lasso / Ridge / ElasticNet, XGBoost, hidden Markov regime detection and a backtest engine, each with plain-English explanations. Runs on simulated price series. &nbsp; [Live demo →](https://n9omi.github.io/commodity-ml-dashboard/)
+- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** · *HTML / JavaScript* — Interactive teaching and experimentation dashboard for commodity-market ML. Demonstrates regularization, XGBoost, hidden-state regime detection and backtesting with plain-language explanations and simulated price series. &nbsp; [Live demo →](https://n9omi.github.io/commodity-ml-dashboard/)
 
-### Research Tools
+### Quantitative Research Infrastructure
 
-- **[quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant)** · *HTML / JavaScript* — Single-page app that uses Claude to break down technical papers in quant finance, economics and statistics: key equations with every symbol explained, concepts at three levels of depth, the method pipeline, and a phased replication plan with a starter Python script. Runs in the browser with your own API key. &nbsp; [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
+- **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared commodity-research library for EIA/FRED ingestion, data-contract validation, purged walk-forward splits and standardized research outputs. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)**, a reusable ingest → features → model → validate → report project scaffold.
 
-- **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared toolbox for commodity research: EIA and FRED loaders, data-contract validation, purged walk-forward splits and a consistent figure style. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)**, an ingest → features → model → validate → report scaffold for new projects.
+- **[quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant)** · *HTML / JavaScript* — Research interface for decomposing technical papers in quantitative finance, economics and statistics into equations, concepts, method pipelines and staged replication plans with starter code. &nbsp; [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
 
---- 
+---
 
-## 📝 Other Work
+## 📝 Published Work
 
 ### Academic
 
-- **"Crisis as Infrastructure"** — Co-authored chapter in *[Routledge Handbook]*, with Esparza & Tinga. Analyzes necropolitics and European border governance through a structural lenses. *(Forthcoming)*
-
-### Digital Scholarship
-
-- **[sacred-memories-tangier](https://github.com/n9omi/sacred-memories-tangier)** · *HTML / CSS* — Website for the Sacred Memories in Tangier ethnographic research project, with researcher profiles, an archive and a Critical Border Studies section. Sponsored by CUNY John Jay College. &nbsp; [Visit →](https://sacredmemoriestanger.com)
+- **"Crisis as Infrastructure"** — Co-authored chapter in *[Routledge Handbook]*, with Esparza & Tinga. Analyzes necropolitics and European border governance through a structural lens. *(Routledge)*
 
 ### Data Journalism
 
