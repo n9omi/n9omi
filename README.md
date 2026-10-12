@@ -15,7 +15,7 @@ Professionally, I've worked in data for 7+ years applying data engineering and d
 
 - **Geospatial, network & physical-supply intelligence:** combining GIS, spatial analysis, machine learning, Earth-observation data, and network methods to study commodity production, infrastructure, trade dependencies, supply-chain concentration, and disruption through [GIS-ML-Commodities-Network](https://github.com/n9omi/GIS-ML-Commodities-Network) and [commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas).
 
-- **Geopolitical & geoeconomic intelligence:** studying how conflict, sanctions, trade policy, political instability, and cross-border disruptions propagate through commodity flows, supply chains, energy markets, and financial conditions, including interactive geopolitical monitoring and analytical dashboards.
+- **Geopolitical & geoeconomic intelligence:** studying how conflict, sanctions, trade policy, political instability, and cross-border disruptions propagate through commodity flows, supply chains, energy markets, and financial conditions through [geopol-risk-monitor](https://github.com/n9omi/geopol-risk-monitor).
 
 - **Climate-shock transmission:** measuring how hurricanes, winter storms, floods, and other physical hazards transmit into commodity prices, volatility, infrastructure exposure, and portfolio risk through [climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk).
 
