@@ -10,13 +10,12 @@ More broadly, I study how environmental, socioeconomic, and geopolitical systems
 Professionally, I've worked in data for 7+ years applying data engineering and data science methods in compliance-heavy industries — energy, healthcare, real estate and infrastructure, public sector, and economic and policy research — spanning data sourcing, pipeline development, data governance, forecasting, ethnography, demography, geospatial and statistical modeling, owning data products end to end, turning structured and unstructured data into statistical and qualitative insights delivered as compliance analytics, data products, tools, and reports for decision makers and stakeholders.
 
 **Currently focused on:**
-
-- **Commodity market risk, regimes & model validation:** detecting changes in energy-market states, forecasting volatility and tail risk, and testing whether risk and factor models remain reliable out of sample
-- **Climate shocks & commodity transmission:** measuring how hurricanes, winter storms and other physical shocks propagate into oil and gas prices, volatility, VaR breaches and portfolio stress
-- **Geospatial supply intelligence:** turning satellite, radar, lidar and crop-condition data into observable supply-side signals for energy, agriculture and critical minerals
-- **Commodity ML & deep learning:** benchmarking neural networks and reinforcement learning against strong statistical and econometric baselines rather than treating ML as a black box
-- **Market & counterparty risk:** modeling portfolio VaR/ES, stress loss, derivatives exposure, collateral, CVA and wrong-way risk under bank-style risk frameworks
-- **Reproducible quantitative research infrastructure:** building reusable data loaders, validation utilities, purged backtests, research templates, reports and interactive dashboards for commodity research
+- **Commodity market regimes & risk:** modeling volatility, tail risk, regime shifts, and model failure across energy and broader commodity markets
+- **Geopolitical & geoeconomic intelligence:** studying how conflict, sanctions, trade policy, political instability, and cross-border disruptions affect commodity flows, supply chains, prices, and market risk
+- **Geospatial supply intelligence:** using remote sensing, spatial statistics, and Earth-observation data to monitor agriculture, mining, energy infrastructure, stockpiles, and other physical supply conditions
+- **Climate-shock transmission:** measuring how hurricanes, winter storms, floods, and other physical hazards propagate into commodity prices, volatility, infrastructure exposure, and financial risk
+- **Commodity ML & decision models:** testing deep learning, reinforcement learning, and statistical-learning methods against classical econometric and stochastic benchmarks
+- **Quantitative research infrastructure:** building reproducible pipelines for data ingestion, feature engineering, backtesting, model validation, research replication, and reporting
 
 ---
 
