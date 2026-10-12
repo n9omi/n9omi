@@ -10,12 +10,18 @@ More broadly, I study how environmental, socioeconomic, and geopolitical systems
 Professionally, I've worked in data for 7+ years applying data engineering and data science methods in compliance-heavy industries — energy, healthcare, real estate and infrastructure, public sector, and economic and policy research — spanning data sourcing, pipeline development, data governance, forecasting, ethnography, demography, geospatial and statistical modeling, owning data products end to end, turning structured and unstructured data into statistical and qualitative insights delivered as compliance analytics, data products, tools, and reports for decision makers and stakeholders.
 
 **Currently focused on:**
-- **Commodity market regimes & risk:** modeling volatility, tail risk, regime shifts, and model failure across energy and broader commodity markets
-- **Geopolitical & geoeconomic intelligence:** studying how conflict, sanctions, trade policy, political instability, and cross-border disruptions affect commodity flows, supply chains, prices, and market risk
-- **Geospatial supply intelligence:** using remote sensing, spatial statistics, and Earth-observation data to monitor agriculture, mining, energy infrastructure, stockpiles, and other physical supply conditions
-- **Climate-shock transmission:** measuring how hurricanes, winter storms, floods, and other physical hazards propagate into commodity prices, volatility, infrastructure exposure, and financial risk
-- **Commodity ML & decision models:** testing deep learning, reinforcement learning, and statistical-learning methods against classical econometric and stochastic benchmarks
-- **Quantitative research infrastructure:** building reproducible pipelines for data ingestion, feature engineering, backtesting, model validation, research replication, and reporting
+
+- **Commodity market regimes & risk:** modeling volatility, tail risk, regime shifts, strategy robustness, and model failure across energy and broader commodity markets through [regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation), [climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk), and [risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit).
+
+- **Geospatial, network & physical-supply intelligence:** combining GIS, spatial analysis, machine learning, Earth-observation data, and network methods to study commodity production, infrastructure, trade dependencies, supply-chain concentration, and disruption through [GIS-ML-Commodities-Network](https://github.com/n9omi/GIS-ML-Commodities-Network) and [commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas).
+
+- **Geopolitical & geoeconomic intelligence:** studying how conflict, sanctions, trade policy, political instability, and cross-border disruptions propagate through commodity flows, supply chains, energy markets, and financial conditions, including interactive geopolitical monitoring and analytical dashboards.
+
+- **Climate-shock transmission:** measuring how hurricanes, winter storms, floods, and other physical hazards transmit into commodity prices, volatility, infrastructure exposure, and portfolio risk through [climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk).
+
+- **Commodity ML & decision models:** testing deep learning, reinforcement learning, and statistical-learning methods against classical econometric and stochastic benchmarks through [commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab) and [commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard).
+
+- **Quantitative research infrastructure:** building reproducible systems for data ingestion, feature engineering, backtesting, model validation, research replication, and reporting through [commodity-research-utils](https://github.com/n9omi/commodity-research-utils), [commodity-repo-template](https://github.com/n9omi/commodity-repo-template), and [quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant).
 
 ---
 
