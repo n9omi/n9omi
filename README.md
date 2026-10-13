@@ -46,31 +46,43 @@ Python · R · PyTorch · NumPy / SciPy-style numerical workflows · HTML / Java
 
 ## 📊 Projects
 
-### Commodity Market Risk & Model Validation
+### Market, Climate & Geopolitical Risk
 
-- **[regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation)** · *Python* — End-to-end energy market-risk and model-validation research on WTI, Brent and Henry Hub. Implements Markov-switching regime detection, EWMA / GARCH-t / HAR-RV volatility forecasts, daily VaR/ES backtesting, and formal coverage tests. A second workflow re-tests published commodity momentum and value strategies using purged cross-validation, probability of backtest overfitting and the deflated Sharpe ratio. Core estimators and validation statistics are implemented from scratch. &nbsp; [Dashboard →](https://n9omi.github.io/regime-risk-and-model-validation/) · [Risk report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/regime_risk_summary.pdf) · [Factor report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/factor_validation_summary.pdf)
+- **[regime-risk-and-model-validation](https://github.com/n9omi/regime-risk-and-model-validation)** · *Python* — Energy market-risk and model-validation suite for WTI, Brent, and Henry Hub, covering regime detection, volatility forecasting, VaR/ES backtesting, and commodity-factor robustness tests. Core estimators and validation statistics are implemented from scratch.  
+  [Dashboard →](https://n9omi.github.io/regime-risk-and-model-validation/) · [Risk report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/regime_risk_summary.pdf) · [Factor report →](https://github.com/n9omi/regime-risk-and-model-validation/blob/main/reports/factor_validation_summary.pdf)
 
-- **[climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk)** · *Python* — Studies how Gulf hurricanes and US winter storms transmit into oil and gas prices and whether standard daily risk models capture the resulting stress. Combines NOAA storm selection, event studies, same-season placebos, regime shifts, VaR breach analysis, a learned climate overlay and historical-scenario stress testing on an energy portfolio. Built on the reusable regime-risk package. &nbsp; [Dashboard →](https://n9omi.github.io/climate-shock-energy-risk/) · [Report →](https://github.com/n9omi/climate-shock-energy-risk/blob/main/reports/climate_shock_energy_risk_report.pdf)
+- **[climate-shock-energy-risk](https://github.com/n9omi/climate-shock-energy-risk)** · *Python* — Event-study and stress-testing framework linking Gulf hurricanes and U.S. winter storms to oil and gas prices, volatility regimes, VaR breaches, and portfolio losses.  
+  [Dashboard →](https://n9omi.github.io/climate-shock-energy-risk/) · [Report →](https://github.com/n9omi/climate-shock-energy-risk/blob/main/reports/climate_shock_energy_risk_report.pdf)
 
-- **[risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit)** · *R* — Bank-style market and counterparty-credit risk case studies implemented without black-box risk packages. Covers multi-method VaR/ES, position-level risk attribution, stressed VaR, crisis replays and Basel/FRTB capital; plus Monte Carlo swap/forward exposure, netting, collateral, CVA, wrong-way risk and SA-CCR / IRB / BA-CVA capital. &nbsp; [Market-risk report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/market_risk_summary.pdf) · [CCR report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/ccr_summary.pdf)
+- **[geopol-risk-monitor](https://github.com/n9omi/geopol-risk-monitor)** — Geopolitical and geoeconomic monitoring system connecting conflict, sanctions, trade policy, political instability, and cross-border disruptions to commodity, supply-chain, and market risk.
 
-### Commodity Geospatial, ML & Decision Models
+- **[risk-cc-market-toolkit](https://github.com/n9omi/risk-cc-market-toolkit)** · *R* — Market- and counterparty-risk toolkit covering VaR/ES, stress loss, risk attribution, derivatives exposure, collateral, CVA, wrong-way risk, and regulatory capital.  
+  [Market-risk report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/market_risk_summary.pdf) · [CCR report →](https://github.com/n9omi/risk-cc-market-toolkit/blob/main/reports/ccr_summary.pdf)
 
-- **[commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas)** · *Python* — Converts free Earth-observation data into observable commodity supply signals. Includes Sentinel-1/2 change detection for drilling and mining sites, USGS 3DEP lidar stockpile-volume estimation at coal yards, and kriged MODIS crop-condition surfaces with LISA hotspots across the Corn Belt. Each layer is evaluated against an independent reference. &nbsp; [Atlas →](https://n9omi.github.io/commodity-geospatial-atlas/) · [Report →](https://github.com/n9omi/commodity-geospatial-atlas/blob/main/reports/geospatial_atlas_report.pdf)
+### Geospatial, Network & Physical-Supply Intelligence
 
-- **[commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab)** · *Python / PyTorch* — Tests where deep learning actually adds value in commodity research by pairing each network with a classical benchmark on identical data and splits: LSTM / GRU / Temporal Fusion Transformer vs GARCH / HAR for energy volatility, U-Net vs random forest for Sentinel-2 land-use mapping, and Double DQN vs least-squares Monte Carlo for gas-storage trading. Uses multiple seeds, ablations, tracked experiments and model cards. &nbsp; [Dashboard →](https://n9omi.github.io/commodity-deep-learning-lab/) · [Report →](https://github.com/n9omi/commodity-deep-learning-lab/blob/main/reports/deep_learning_lab_report.pdf) · [Model cards →](https://github.com/n9omi/commodity-deep-learning-lab/tree/main/model_cards)
+- **[GIS-ML-Commodities-Network](https://github.com/n9omi/GIS-ML-Commodities-Network)** — Integrated GIS, machine-learning, and network-analysis research for studying commodity production, infrastructure, trade relationships, supply-chain concentration, and disruption exposure.
 
-- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** · *HTML / JavaScript* — Interactive teaching and experimentation dashboard for commodity-market ML. Demonstrates regularization, XGBoost, hidden-state regime detection and backtesting with plain-language explanations and simulated price series. &nbsp; [Live demo →](https://n9omi.github.io/commodity-ml-dashboard/)
+- **[commodity-geospatial-atlas](https://github.com/n9omi/commodity-geospatial-atlas)** · *Python* — Earth-observation atlas for extracting physical commodity-supply signals from Sentinel imagery, lidar, and crop-condition data across drilling, mining, coal stockpiles, and agriculture.  
+  [Atlas →](https://n9omi.github.io/commodity-geospatial-atlas/) · [Report →](https://github.com/n9omi/commodity-geospatial-atlas/blob/main/reports/geospatial_atlas_report.pdf)
+
+### Commodity ML & Decision Models
+
+- **[commodity-deep-learning-lab](https://github.com/n9omi/commodity-deep-learning-lab)** · *Python / PyTorch* — Benchmark laboratory comparing deep-learning and reinforcement-learning models against classical statistical methods for energy volatility, satellite-image classification, and gas-storage decisions.  
+  [Dashboard →](https://n9omi.github.io/commodity-deep-learning-lab/) · [Report →](https://github.com/n9omi/commodity-deep-learning-lab/blob/main/reports/deep_learning_lab_report.pdf) · [Model cards →](https://github.com/n9omi/commodity-deep-learning-lab/tree/main/model_cards)
+
+- **[commodity-ml-dashboard](https://github.com/n9omi/commodity-ml-dashboard)** · *HTML / JavaScript* — Interactive commodity-ML environment demonstrating regularization, XGBoost, hidden-state regime detection, and backtesting with interpretable examples.  
+  [Live demo →](https://n9omi.github.io/commodity-ml-dashboard/)
 
 ### Quantitative Research Infrastructure
 
-- **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared commodity-research library for EIA/FRED ingestion, data-contract validation, purged walk-forward splits and standardized research outputs. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)**, a reusable ingest → features → model → validate → report project scaffold.
+- **[commodity-research-utils](https://github.com/n9omi/commodity-research-utils)** · *Python* — Shared research library for commodity-data ingestion, validation, purged walk-forward splits, and standardized outputs. Paired with **[commodity-repo-template](https://github.com/n9omi/commodity-repo-template)** for reproducible ingest → features → model → validate → report workflows.
 
-- **[quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant)** · *HTML / JavaScript* — Research interface for decomposing technical papers in quantitative finance, economics and statistics into equations, concepts, method pipelines and staged replication plans with starter code. &nbsp; [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
-
+- **[quant-paper-reading-assistant](https://github.com/n9omi/quant-paper-reading-assistant)** · *HTML / JavaScript* — Research interface for decomposing quantitative papers into equations, concepts, methodological pipelines, and staged replication plans.  
+  [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
 ---
 
-## 📝 Published Work
+## 📝 Other Work
 
 ### Academic
 
