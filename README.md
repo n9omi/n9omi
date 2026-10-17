@@ -113,3 +113,7 @@ Built at the Social Science Research Council — Measure of America:
 
 - 📧 &nbsp; ngtinga@gmail.com
 - 🐙 &nbsp; [github.com/n9omi](https://github.com/n9omi)
+
+___
+
+"What you're really doing is checking the intuition not the mathematics" - Leonard Susskind
