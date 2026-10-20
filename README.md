@@ -112,6 +112,7 @@ Built at the Social Science Research Council — Measure of America:
 ## 📫 Connect
 
 - 📧 &nbsp; ngtinga@gmail.com
+- 💼 &nbsp; [linkedin.com/in/naomitinga](https://www.linkedin.com/in/naomitinga)
 - 🐙 &nbsp; [github.com/n9omi](https://github.com/n9omi)
 
 ___
