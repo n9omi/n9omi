@@ -1,7 +1,7 @@
 [README-2(2).md](https://github.com/user-attachments/files/33359802/README-2.2.md)
 # Naomi Tinga
 
-### Professional Data Analyst and Graduate Student
+### Data Professional and Graduate Student
 
 My work explores probabilistic and statistical modeling, geospatial and remote-sensing methods, conceptual and exploratory frameworks to study **commodities, global markets, environmental risk, and geopolitical dynamics**. I am particularly interested in combining Earth-observation, geospatial, demographic, socioeconomic, and market data to estimate latent system states, identify regime changes, quantify risk/uncertainty, and study how shocks propagate through commodities markets, supply chains, and the global economy. I complement these quantitative methods with behavioral, game-theoretic, network analysis, social and critical theory, and other qualitative frameworks.
 
