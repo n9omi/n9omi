@@ -25,7 +25,7 @@ Professionally, I've worked in data for 7+ years applying data engineering and d
 
 ---
 
-## 🔧 Methods & Tools
+## Methods & Tools
 
 **Time Series, Risk & Econometrics:**  
 Markov-switching / hidden-state models · EWMA · GARCH-t · HAR-RV · volatility forecast comparison · VaR / Expected Shortfall · historical & filtered historical simulation · stress testing · event studies · placebo testing · Monte Carlo simulation · CVA / counterparty exposure · time-series and cross-sectional momentum · value factors
@@ -44,7 +44,7 @@ Python · R · PyTorch · NumPy / SciPy-style numerical workflows · HTML / Java
 
 ---
 
-## 📊 Projects
+## Projects
 
 ### Market, Climate & Geopolitical Risk
 
@@ -82,7 +82,7 @@ Python · R · PyTorch · NumPy / SciPy-style numerical workflows · HTML / Java
   [Live app →](https://n9omi.github.io/quant-paper-reading-assistant/)
 ---
 
-## 📝 Other Work
+## Other Work
 
 ### Academic
 
